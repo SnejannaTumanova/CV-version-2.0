@@ -364,8 +364,8 @@ padding-right: 25px;
 }
 
 #book {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 180px;
     margin-top: 15px;
     margin-left: 200px;
     border-radius: 35%;
@@ -375,6 +375,6 @@ padding-right: 25px;
     width: 170px;
     height: 80px;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 450px;
     border-radius: 50%;
 }
