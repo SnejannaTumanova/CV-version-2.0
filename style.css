@@ -362,3 +362,19 @@ padding-right: 25px;
     font-size: 20px;
     text-align: center;
 }
+
+#book {
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 200px;
+    border-radius: 35%;
+}
+
+#the_end{
+    width: 170px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 200px;
+    border-radius: 50%;
+}
