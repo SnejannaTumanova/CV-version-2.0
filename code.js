@@ -4,7 +4,11 @@ function init () {
     let image = document.getElementById("avatar2")
     image.onclick = showAnswer;
     image.onmouseover = fnReplacement;
-    image.onmouseout = fnRecovery
+    image.onmouseout = fnRecovery;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        let style = document.getElementById("style")
+        style.href = "stylePhone.css"
+      }
 }
 
 function fnReplacement () {
