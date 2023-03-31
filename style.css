@@ -40,20 +40,28 @@ height: 100%;
 background-color: rgb(81, 39, 197);
 }
 
+#blocks{
+display: flex;
+flex-direction: row;
+}
+
 #block1 {
-    margin-top: 287px;
-    position:fixed; 
+    margin-top:7px;
+    display: flex; 
+    flex-direction: column;
     left:0;
     top:0;
     width: 38%;
     height: 100%;
     background-image: url(https://sun9-34.userapi.com/impg/LeW9NTAYBxcYiARWKt6yAReigXa1_O7D3rpKow/niwbDwRMaHI.jpg?size=919x1080&quality=95&sign=972e77c1f1acde47ab18a86dc9401a7b&type=album);
     overflow: auto; 
+    padding: 10px;
 }
 
 #block2 {
-    margin-top: 287px;
-    position:fixed; 
+    margin-top: 7px;
+    display: flex; 
+    flex-direction: column;
     right:0;
     top:0;
     width:61.5%;
@@ -61,6 +69,7 @@ background-color: rgb(81, 39, 197);
     background-color: rgb(221, 209, 238);
     overflow:auto;
     margin-left: 5px;
+    padding: 5px;
 }
 
 #bio {
@@ -83,7 +92,7 @@ background-color: rgb(81, 39, 197);
     background-color: rgb(81, 39, 197);
 }
 
-#biog{
+.biog{
     font-family: Comic Sans, cursive;
     font-weight: 400;
     font-size: 20px;
