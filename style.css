@@ -1,6 +1,8 @@
 #header {
 background-image: url(https://www.freewebheaders.com/wp-content/gallery/natural-abstract/pink-purple-leaves-natural-abstract-art-website-header.jpg);
 background-size: cover;
+width: 100%;
+height: 100%;
 display: flex;
 flex-direction: row;
 }
