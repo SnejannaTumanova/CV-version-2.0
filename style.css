@@ -46,7 +46,8 @@ flex-direction: row;
 
 #block1 {
     margin-top:7px;
-    margin-left:5px;
+    margin-left:3px;
+    margin-bottom:2px;
     display: flex; 
     flex-direction: column;
     left:0;
@@ -61,7 +62,7 @@ flex-direction: row;
 #block2 {
     margin-top: 7px;
     margin-right:5px;
-    margin-left: 5px;
+    margin-left: 3px;
     display: flex; 
     flex-direction: column;
     right:0;
