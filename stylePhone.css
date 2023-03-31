@@ -23,7 +23,7 @@
     height: 210px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.719);
-    margin-left: 10px;
+    margin-left: 45px;
     margin-top: auto;
     margin-bottom: 10px;
 } 
@@ -32,6 +32,7 @@
     height: 160px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.699);
+    margin-left: 5px;
     margin-top: auto;
     margin-bottom: auto; 
 }
@@ -214,7 +215,7 @@ flex-direction: column;
     height: 90px;
     border-radius: 50%;
     margin-top: 0px;
-    padding-left: auto;
+    padding-left: 0%;
     padding-right: auto;
 }
 
@@ -387,6 +388,7 @@ padding-right: 25px;
     height: 100px;
     margin-top: 15px;
     margin-left: auto;
+    margin-right:auto;
     border-radius: 35%;
 }
 
